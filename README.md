@@ -2,6 +2,7 @@ A java agent to generate /tmp/perf-<pid>.map files for JITted methods for use wi
 
 ## Build
 
+    export JAVA_HOME=${PATH_TO_JDK}
     cmake .
     make
 
